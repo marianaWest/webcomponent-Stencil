@@ -7,6 +7,8 @@
 import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
 export namespace Components {
     interface MwestArtistCard {
+        "artwork": string;
+        "artworkTitle": string;
         "firstName": string;
         "lastName": string;
         "photo": string;
@@ -48,6 +50,8 @@ declare global {
 }
 declare namespace LocalJSX {
     interface MwestArtistCard {
+        "artwork"?: string;
+        "artworkTitle"?: string;
         "firstName"?: string;
         "lastName"?: string;
         "photo"?: string;
