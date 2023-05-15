@@ -9,11 +9,13 @@ export namespace Components {
     interface MwestArtistCard {
         "artwork": string;
         "artworkTitle": string;
+        "dob": string;
         "firstName": string;
         "lastName": string;
+        "medium": string;
         "photo": string;
+        "placeOfBirth": string;
         "resume": string;
-        "role": string;
     }
     interface MyComponent {
         /**
@@ -52,11 +54,13 @@ declare namespace LocalJSX {
     interface MwestArtistCard {
         "artwork"?: string;
         "artworkTitle"?: string;
+        "dob"?: string;
         "firstName"?: string;
         "lastName"?: string;
+        "medium"?: string;
         "photo"?: string;
+        "placeOfBirth"?: string;
         "resume"?: string;
-        "role"?: string;
     }
     interface MyComponent {
         /**
