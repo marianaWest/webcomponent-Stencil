@@ -27,15 +27,17 @@ export class MWestArtistCard {
             </div>
             <div class="b-artist-card__avatar">
               <div class="b-artist-card__name-birth">
-              <h2 class="b-artist-card__full-name">
-              {this.firstName} {this.lastName}
-            </h2>
-            <p class="b-artist-card__birth-info">(b. {this.dob}, {this.placeOfBirth})</p>
+                <h2 class="b-artist-card__full-name">
+                  {this.firstName} {this.lastName}
+                </h2>
+                <p class="b-artist-card__birth-info">
+                  (b. {this.dob}, {this.placeOfBirth})
+                </p>
               </div>
               <img class="b-artist-card__photo" src={this.photo} alt=""></img>
             </div>
-            
-            <h3>{this.medium}</h3>
+
+            <p class="b-artist-card__medium">{this.medium}</p>
             <div class="b-artist-card__resume">{this.resume}</div>
           </div>
         </div>

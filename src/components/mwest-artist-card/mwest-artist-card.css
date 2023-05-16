@@ -5,28 +5,38 @@ b-artist-card-box {
 }
 
 .b-artist-card {
+  min-width: 315px;
+  max-width: 360px;
   background-color: #fff;
   box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
   color: #4a4a4a;
-  max-width: 100%;
+  /* max-width: 100%; */
   position: relative;
   text-align: center;
   border-radius: 1rem;
+  border: 1px solid red;
 }
 
+
 .b-artist-card__content {
-  padding: 1.5rem;
+  padding: 1.5rem 0;
+}
+
+.b-artist-card__artwork-container {
+  text-align: center;
 }
 
 .b-artist-card__artwork {
-  max-width: 297px;
+  width: 297px;
   border: 6px solid #e6e6ef;
+  
 }
 
 .b-artist-card__avatar {
-  max-width: 309px;
   display: flex;
   flex-direction: row;
+  padding: 0 1.5rem;
+  border: 1px solid orange;
 }
 .b-artist-card__name-birth {
   max-width: 80%;
@@ -39,6 +49,12 @@ b-artist-card-box {
   margin: 0px;
 }
 
+.b-artist-card__medium {
+  text-align: left;
+  font-size: 1rem;
+  color: #7b7a7a;
+  font-style: italic;
+}
 .b-artist-card__photo {
   width: 60px;
   height: 60px;
@@ -54,5 +70,6 @@ b-artist-card-box {
 }
 
 .b-artist-card__resume {
-  color: #aaaaaa;
+  color: black;
+  text-align: left;
 }
