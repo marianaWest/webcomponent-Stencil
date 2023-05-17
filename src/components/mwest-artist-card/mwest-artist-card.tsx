@@ -34,7 +34,10 @@ export class MWestArtistCard {
                   (b. {this.dob}, {this.placeOfBirth})
                 </p>
               </div>
+              <div class="b-artist-card__photo-container">
               <img class="b-artist-card__photo" src={this.photo} alt=""></img>
+              </div>
+             
             </div>
             <div class="b-artist-card__bio">
               <p class="b-artist-card__medium">{this.medium}</p>
